@@ -1,0 +1,1 @@
+export * as movieFavoriteModel from './model'

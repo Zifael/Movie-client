@@ -1,0 +1,24 @@
+.movie {
+    display: flex;
+    justify-content: center;   
+    margin-top: 8vh;
+    background: none;
+    
+}
+
+
+.wraper {    
+    background-color: #353333;
+    border-radius: 5px;
+    padding: 10px 50px;
+    max-width: 800px;
+}
+
+
+.siderBar {
+    background-color: #353333;   
+    border-radius: 5px;
+    padding: 20px;
+    margin-right: 10px;
+    min-width: 200px;
+}

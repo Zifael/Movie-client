@@ -1,0 +1,139 @@
+
+
+.form {
+    display: block;
+    width: 600px;      
+    margin: 0 auto;    
+    padding:  5em 8em;
+    margin-top: 200px;
+    background-color: rgb(26, 25, 33);
+    border-radius: 5px;
+}   
+
+.form__content {
+    text-align: center;
+}
+
+.title__wraper {
+    margin: 0 auto;
+}
+
+.InnerForm__title {
+    color: white;
+    margin-bottom: 5px;
+}
+
+
+.InnerForm__content {
+    color: white;    
+    display: block;
+    margin-bottom: 10px;
+}
+.InnerForm__content:first-of-type {
+    margin-top: 20px;
+}
+ 
+.InnerForm__nameInput {        
+    margin: auto 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.input__wraper {
+    margin-top: 10px;
+    position: relative;;
+}
+
+.input__show {
+    position: absolute;
+    right: 0;
+    top: 0;    
+    width: 40px;
+    height: 100%;
+    display: flex;   
+    align-items:  center;
+}
+
+.input__img {   
+    color: black;
+    font-size: 20px;    
+    cursor: pointer;
+}
+
+.InnerForm__input {    
+    padding: 10px;    
+    font-size: 16px;
+    width: 100%;
+    color: black;
+    border-radius: 5px;
+    border: none;  
+    outline: 0;
+}
+
+.InnerForm__input.errorInput {
+    border: 2px solid red;
+}
+
+.error {
+    display: flex;
+    justify-content: start;
+    color: red;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.button__wraper {
+    display: flex;    
+    align-items: center;
+    justify-content: start;
+}
+
+.frogot__wraper {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.InnerForm__button {    
+    display: block;
+    width: 100%;    
+    position: relative;
+    margin-top: 20px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px; 
+    transition-duration: 0.4s; 
+    margin-bottom: 20px; 
+}
+
+.InnerForm__button:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 5px;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.5s;
+    box-shadow: 0 0 10px 40px white;
+  }
+
+  .InnerForm__button:active:after {
+    box-shadow: 0 0 0 0 white;
+    position: absolute;
+    border-radius: 5px;
+    left: 0;
+    top:0;
+    opacity: 1;
+    transition: 0s;
+  }
+  
+  .InnerForm__button:active {
+    top: 1px;
+  }

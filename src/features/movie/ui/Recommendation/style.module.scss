@@ -1,0 +1,19 @@
+.rec__wraper {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recImg {
+    padding: 5px;
+    cursor: pointer;
+    height: 210px;
+    width: 210px;
+    margin-left: 5px;
+    object-fit: cover;
+}
+
+.recImg.active {
+    border: 3px solid gold;
+}

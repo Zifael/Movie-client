@@ -1,0 +1,63 @@
+.setRating__wraper {   
+    display: flex; 
+    margin: 0 10px;  
+    
+}
+
+.userRating {  
+    border-radius: 50%;    
+    width: 40px;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+    border: 1px solid white;
+    background: none;  
+    font-size: 20px;  
+}
+
+.userRating.badRating {
+    color: red;
+    border: 1px solid red;
+}
+.userRating.goodRating {
+    color: rgb(61, 255, 61);
+    border: 1px solid rgb(61, 255, 61);;
+}
+
+
+.showSetRating {    
+    font-size:  24px;
+    font-weight: 500;
+    border: none;
+    background: none;
+    color: white;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+   
+}
+
+.setRating {
+    display: none;
+    position: absolute;
+    left: -49px;
+    background-color: rgb(117, 117, 117);
+    border-radius: 30em;  
+    padding: 5px 10px;
+}
+
+.setRating.show {
+    display: flex;
+    align-items: center;
+}
+
+.close {
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 10px;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+

@@ -1,0 +1,29 @@
+.button {
+    margin-top: 5px;
+    width: 100%;   
+    display: flex;
+    align-items: center; 
+    justify-content: center;  
+    border: none;
+}
+
+.add__list {
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+}
+
+.plus {
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+
+.title {
+    margin-top: 2px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 5px;
+}
+

@@ -1,0 +1,1 @@
+export const movieFavorites = (state: RootState) => state.movieFavoriteReducer.movieFavorites

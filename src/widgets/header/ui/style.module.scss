@@ -1,0 +1,54 @@
+.header__wraper {
+    height: 60px;
+    background-color: #4b4b4b;  
+    padding-left: 20px;
+    padding-right: 60px;
+}
+
+.header__content {
+    height: 100%;
+    display: flex;    
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.logo {
+    margin-left: 2.5em;
+    height: 55px;   
+    cursor: pointer;
+}
+
+.link__wraper {
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    margin-left: 2em;
+    font-size: 16px;
+}
+
+.drop ul {
+    background-color: white;
+}
+.login {
+    margin-left: 2em;
+    color: white;
+    font-size: 16px;    
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+.favorite__wraper {
+    position: relative;
+}
+
+
+.favorite__count {
+    color: orange;
+    position: absolute;
+    left: 0.8em;
+    top: 0.5em;
+}
